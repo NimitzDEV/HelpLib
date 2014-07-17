@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+帮助库
+</name>
+</assembly>
+<members>
+<member name="P:帮助库.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.err">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.full128">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.new128">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.newbg">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.ok">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.ok_1_">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.small">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:帮助库.My.Resources.Resources.update128">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="T:帮助库.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="M:帮助库.zipService.Compress(System.Byte[],System.Int32,System.Int32,System.Int32)">
+	<summary>加压数据</summary>
+	<param name="data">数据</param>
+	<param name="offset">起始偏移</param>
+	<param name="length">长度</param>
+	<param name="level">压缩级别</param>
+</member><member name="M:帮助库.zipService.CompressString(System.String,System.Text.Encoding,System.Int32)">
+	<summary>加压字符</summary>
+	<param name="str">字符</param>
+	<param name="enc">编码</param>
+	<param name="level">压缩级别</param>
+</member><member name="M:帮助库.zipService.Decompress(System.Byte[])">
+	<summary>解压数据</summary>
+	<param name="data">数据</param>
+</member><member name="M:帮助库.zipService.DecompressString(System.Byte[],System.Text.Encoding)">
+	<summary>解压字符</summary>
+	<param name="data">数据</param>
+	<param name="enc">编码</param>
+</member><member name="M:帮助库.zipService.FastCreateZip(System.String,System.String,System.String,System.String)">
+	<summary>快速加压</summary>
+</member><member name="M:帮助库.zipService.DecompressZip(System.String,System.String,System.String,System.Boolean)">
+	<summary>解压ZIP文件到目录</summary>
+	<param name="zipPath">ZIP文件路径</param>
+	<param name="folderPath">目标文件夹</param>
+	<param name="password">密码</param>
+	<param name="overwrite">是否覆盖文件</param>
+</member><member name="M:帮助库.zipService.CompressFile(System.String,System.String,System.Int32,System.String)">
+	<summary>压缩某个目录内全部文档到ZIP</summary>
+	<param name="zipPath">ZIP路径</param>
+	<param name="folderPath">目标目录</param>
+	<param name="level">压缩级别</param>
+	<param name="password">密码</param>
+</member>
+</members>
+</doc>

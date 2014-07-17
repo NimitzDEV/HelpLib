@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LiPaiXMLFileRoot>
+  <solve>
+    <item name="演示文档" file="example.zip" author="nimitzdev" publish="2014/7/9" desc="这是一个演示文档，本文档将介绍以下几点内容：
+· 如何使用 InformationPage
+· 如何使用 InformationPagePicture
+· WebPage 的两种用法" />
+	<item name="演示文档" file="example.zip" author="nimitzdev" publish="2014/7/9" desc="这是一个演示文档" />
+  </solve>
+  <learn>
+    <item name="演示文档" file="example.zip" author="nimitzdev" publish="2014/7/9" desc="这是一个演示文档" />
+  </learn>
+  <settings updateSearchingPath="D:\开发\力牌帮助库\力牌帮助库\bin\Debug\PData\" />
+</LiPaiXMLFileRoot>
